@@ -85,3 +85,5 @@ section {
 - Experimenta con combinaciones de colores que sean agradables a la vista.
 
 ¡Buena suerte y diviértanse creando su CV!
+
+Link repositorio desplegados: https://dsaw-2024-2.github.io/my-cv-part-c-responssive-and-deployed-gabrielabejarano09/

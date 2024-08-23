@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links to add fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <!-- Link to add font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to use css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Mi CV</title>
+</head>
+
+<body>
+    <!-- Creates a big div that extends through the page and names it box-->
+   <!-- Creates a big div that extends through the page and names it box-->
+   <div class="box">
+    <!-- Creates 2 boxes (pink-box and white-box) inside the big one to locate the items inside the page -->
+        <!-- "pink-box" is created-->
+        <div class="pink-box">
+            <!-- The frame of the image is created here using two boxes and the image is added -->
+             <div class="photo"> 
+                <div class="big-frame">
+                    <div class="small-frame">
+                        <img src="icono.mujer.png" alt="Icono de una mujer con ropa de trabajo">
+                    </div>
+                </div>
+            </div>
+                <!-- Creates the "Contacto" section-->
+                <h2 class="white">Contacto</h2> 
+                <!-- Creates an unordered list and adds icons to the beginning of each list -->
+                    <ul class="lista-iconos">
+                        <li><i class="fa-solid fa-envelope"></i>gabrielabejarano09@gmail.com</li>
+                        <li><i class="fa-solid fa-phone" ></i>314 2425931</li>
+                        <li><i class="fa-solid fa-location-dot"></i>Diagonal 4b bis 29 23</li>
+                    </ul>
+            <!-- Creates the "Habilidades" section--> 
+            <h2 class=" white">Habilidades</h2>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Creatividad</li>
+                    <li>Trabajo Colaborativo</li>
+                    <li>Resolución de Problemas</li>
+                </ul>
+            <!-- Creates the "Habilidades" section-->
+            <h2 class="white">Idiomas</h2>
+            <!-- Creates an ordered list -->
+                <ol>
+                    <li>Español: Nativo</li>
+                    <li>Ingles: C2</li>
+                    <li>Frances: Basico</li>
+                </ol>
+            <!-- Creates the "Intereses" section-->
+            <h2 class="white">Intereses</h2>
+                <p>
+                    Participación en cursos y talleres de tecnología y programación,
+                    interés en la literatura, exploración de nuevas herramientas y
+                    tendencias en el desarrollo de software, participación en actividades
+                    comunitarias y voluntariados
+                </p>
+        </div>
+         <!-- "white-box" is created-->
+        <div class="white-box">
+             <!-- A box is created to locate the name, last name, career and the separarting line-->
+            <div class="box-name">
+                <h1 class="title1">Gabriela</h1>
+                <h1 class="title2">Bejarano</h1>
+                <div class="line"></div>
+                <h1 class="title3">Ingeniera Informática</h1>
+            </div>
+
+             <!-- Creates the "Experiencia Laboral" section-->
+            <h2 class="pink" id="espaciado">Experiencia Laboral</h2>
+            <!-- Subtitles-->
+                <h3>Proyecto Biblioteca en Java</h3>
+                    <h4>Universidad de la Sabana</h4>
+                        <p>2023</p>
+            <!-- Text-->
+                        <p>
+                            Desarrollé un sistema de gestión para una biblioteca utilizando Java,
+                            enfocado en la administración eficiente de bibliotecarios, clientes y
+                            libros. El proyecto incluyó:
+                        </p>
+            <!-- Creates an unordered list -->
+                        <ul>
+                            <li>
+                                Desarrollo de Software: Creación de un programa en Java para el
+                                control y gestión de bibliotecas.
+                            </li>
+                            <li>
+                                Interfaz Gráfica: Implementación de una interfaz gráfica de usuario
+                                intuitiva para facilitar la interacción del usuario final.
+                            </li>
+                            <li>
+                                Gestión de Usuarios: Control de acceso y administración tanto para
+                                bibliotecarios como para clientes, con funcionalidades específicas
+                                para cada rol.
+                            </li>
+                            <li>
+                                Manejo de Libros: Registro, búsqueda y gestión de libros en el
+                                sistema, incluyendo características como disponibilidad y préstamo.
+                            </li>
+                        </ul>
+            <!-- Creates the Education Section-->
+            <h2 class="pink">Educación</h2>
+            <!-- Creates subtitles and descriptions-->
+                <h3>Bachiller</h3>
+                    <p>Acellus Academy | 2020-2023, Kansas City, Missouri</p>
+                <h3>Programacion y Tecnologias Digitales</h3>
+                     <p>
+                        Universidad Tecnologia de Pereira | Ministerio de las Tecnologias |
+                        2022, Bogotá, Colombia
+                    </p>
+                <h3 class="pink">Ingenieria Informática</h3>
+                    <p>
+                    Universidad de la Sabana | 2023-Cursando Actualmente | Tercer
+                    Semestre, Chía, Colombia
+                    </p>
+        </div>
+    </div>
+</body>
+
+</html>

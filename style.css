@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+
+html {
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    .box {
+        max-width: 1080px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+.pink-box {
+    background-color: #f1dcdc;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.white-box{
+    background-color: white;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.box-name{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+
+.title1{
+    display: flex;
+    font-size: 5rem;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 5rem;
+    width: fit-content;
+    justify-self: center;
+    align-self: center;
+}
+
+.title2 {
+    margin-top: 2px;
+    align-self: center;
+    font-style: normal;
+    font-weight: 750;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1.4rem;
+    margin-left: 9rem;
+    
+}
+
+.line{
+    margin-top: 1rem;
+    width:100%;
+    height:0.2rem;
+    background-color: #f1dcdc;
+}
+
+.title3 {
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 750;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 0.8rem;
+    align-self: center;
+}
+
+h2 {
+    margin-top: 2.6rem;
+    margin-bottom: 2.6rem;
+    font-style: normal;
+    font-weight: 750;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 1.3rem;
+}
+
+h2.pink {
+    background-color: #f1dcdc;
+    padding-left: 0.5rem;
+    width: fit-content;
+}
+
+h2.white {
+    background-color: white;
+    padding-left: 0.5rem;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+
+}
+h4 {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+    font-size: 1rem;
+
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+
+ul,
+ol {
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-size: 1rem;
+    justify-content: center;
+
+}
+
+ul li,
+ol li {
+    padding-bottom: 2rem;
+}
+
+
+.lista-iconos {
+    list-style: none;
+    color: black;
+}
+
+.lista-iconos li {
+    display: flex;
+    align-items: center;
+}
+
+.lista-iconos li i {
+    margin-right: 1rem;
+}
+
+
+.photo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.big-frame {
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 25rem;
+    width: 18rem;
+}
+
+.small-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1dcdc;
+    height: 23rem;
+    width: 15rem;
+}
+
+.small-frame img {
+    height: 15rem;
+    width: 10rem;
+    border: 10px gold;
+}
+
+
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 20px;
+        .box {
+            background-color:yellow;
+            flex-direction:row ;
+        }
+    } 
+    .pink-box{
+        flex:1;
+    }
+    .white-box{
+        flex: 2;
+    }
+    .box-name{
+        padding: 4rem;
+    }
+    
+    .title1{
+        font-size: 10rem;
+        height: 10rem;
+    }
+    .line{
+        margin-top:2rem;
+    }
+
+    .title3 {
+        font-size: 1.3rem;
+        letter-spacing: 0.6rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    html {
+        font-size: 20px;
+        .box {
+            background-color: blue;
+            flex-direction: row;
+        }
+    } 
+    .pink-box{
+        flex:0.8;
+    }
+    .white-box{
+        flex: 2;
+    }
+}
